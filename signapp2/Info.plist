@@ -2,6 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>NSPhotoLibraryAddUsageDescription</string>
+	<key>CFBundleExecutable</key>
+	<string>NSPhotoLibraryUsageDescription</string>
+	<key>NSFileProviderDomainUsageDescription</key>
+	<string>Please Allow to access a file</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mp3</string>
+				<string></string>
+			</array>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+		</dict>
+	</array>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>We need your permission to transcribe audio files.</string>
 </dict>
