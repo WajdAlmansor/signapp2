@@ -10,9 +10,22 @@
 		B38C9E632D0EFA81003FAE3D /* signapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = signapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B38C9E902D0EFBDB003FAE3D /* Exceptions for "signapp2" folder in "signapp2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B38C9E622D0EFA81003FAE3D /* signapp2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B38C9E652D0EFA81003FAE3D /* signapp2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B38C9E902D0EFBDB003FAE3D /* Exceptions for "signapp2" folder in "signapp2" target */,
+			);
 			path = signapp2;
 			sourceTree = "<group>";
 		};
@@ -252,6 +265,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"signapp2/Preview Content\"";
+				DEVELOPMENT_TEAM = WBAAMR6V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"signapp2/Preview Content\"";
+				DEVELOPMENT_TEAM = WBAAMR6V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
